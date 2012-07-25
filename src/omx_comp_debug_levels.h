@@ -79,4 +79,15 @@
 #define DEBUG(n, fmt, args...) {}
 #endif
 
+
+
+#define TIME(x, args...) {} 
+/*\
+	{ \
+		struct timeval tv; \
+		gettimeofday(&tv, NULL); \
+		printf("[%d:%06d] %s:%s:%d: " x, (int)tv.tv_sec, (int)tv.tv_usec, __FILE__, __func__, __LINE__, ##args); \
+	}
+*/
+
 #endif
