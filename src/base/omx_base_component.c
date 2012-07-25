@@ -32,7 +32,7 @@ extern "C" {
 #include <OMX_Component.h>
 
 #include "omx_base_component.h"
-#include <omx_reference_resource_manager.h>
+#include <omx_samsung_resource_manager.h>
 
 #include "tsemaphore.h"
 #include "queue.h"

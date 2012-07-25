@@ -22,8 +22,8 @@ libomxil_bellagio_la_SOURCES = component_loader.h \
 			       common.c common.h \
 			       content_pipe_inet.c content_pipe_inet.h \
 			       content_pipe_file.c content_pipe_file.h \
-			       omx_reference_resource_manager.c \
-			       omx_reference_resource_manager.h
+			       omx_samsung_resource_manager.c \
+			       omx_samsung_resource_manager.h
 
 libomxil_bellagio_la_CFLAGS = -I$(top_srcdir)/include -I$(srcdir)/base -I$(srcdir)/core_extensions \
                               -DINSTALL_PATH_STR=\"$(plugindir)\" -DOMX_LOADERS_DIRNAME=\"$(libdir)/omxloaders\/\"
@@ -40,7 +40,7 @@ include_extra_HEADERS = $(srcdir)/omxcore.h \
 			$(srcdir)/tsemaphore.h \
 			$(srcdir)/omx_comp_debug_levels.h \
 			$(srcdir)/common.h \
-			$(srcdir)/omx_reference_resource_manager.h \
+			$(srcdir)/omx_samsung_resource_manager.h \
 			$(srcdir)/base/omx_base_component.h \
 			$(srcdir)/base/omx_base_port.h \
 			$(srcdir)/base/omx_base_audio_port.h \

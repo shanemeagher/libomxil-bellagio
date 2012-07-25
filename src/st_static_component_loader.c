@@ -36,7 +36,7 @@
 
 #include "common.h"
 #include "st_static_component_loader.h"
-#include "omx_reference_resource_manager.h"
+#include "omx_samsung_resource_manager.h"
 #include "base/omx_base_component.h"
 
 /** This pointer holds and handle allocate by this loader and requested by
