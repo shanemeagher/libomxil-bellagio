@@ -99,7 +99,7 @@ OMX_ERRORTYPE BOSA_ST_InitComponentLoader(BOSA_COMPONENTLOADER *loader) {
 
   templateList = malloc(sizeof (stLoaderComponentType*));
   templateList[0] = NULL;
-  line = malloc(MAX_LINE_LENGTH);
+  line = malloc(MAX_LINE_LENGTH + 1);
   fseek(omxregistryfp, 0, 0);
   listindex = 0;
 
